@@ -23,6 +23,7 @@ https://zephyrtransport.org/projects/2-network-standard-and-tools/
 A transportation network in GMNS format typically includes node.csv and
 link.csv files, as shown in the following table.
 
+![Node Link Table](img/node_link_table.png)
 node.csv:
 
   --------- --------- ---------- ----------- -----------
@@ -58,23 +59,17 @@ Further details about OSMnx can be found:
 
 Step 1: Set a new virtual environment in Anaconda 3 with Python 3.7
 
-![](media/image1.png){width="5.774305555555555in"
-height="3.073611111111111in"}
-
+![Image1](img/image1.png)
 Step 2: Open Terminal in this virtual environment, and install 3
 packages namely rtree, gdal, fional in sequence. Input the command line
 in terminal: *pip install XXXX.whl*, while the specific versions as
 recommended as follows:
 
-![](media/image2.png){width="2.45in" height="0.51875in"}
+![Image2](img/image2.png)
 
-![](media/image3.png){width="5.759722222222222in"
-height="3.0506944444444444in"}
-
+![Image3](img/image3.png)
 Step 3: Install OSMnx, Type a command line: *pip install osmnx*
-
-![](media/image4.png){width="5.763194444444444in"
-height="0.6819444444444445in"}
+![Image4](img/image4.png)
 
 Step 4: Open the Python IDE such as Pycharm for a typical configuration.
 
@@ -85,18 +80,16 @@ OSM2GMNS tool.
 
 **Step 1: Determining the research boundary of the map**
 
+
 For example, we want to obtain the map data of Tempe campus of ASU, with
 a boundary shown in the map below.
 
 First, please adjust the map to the location of interest:
 
-![](media/image5.png){width="5.777083333333334in"
-height="2.754861111111111in"}
-
+![Image5](img/image5.png)
 Second, click on the "export" button:
 
-![](media/image6.png){width="5.777083333333334in"
-height="2.7576388888888888in"}
+![Image6](img/image6.png)
 
 Then, we can obtain the latitude and longitude coordinate range on the
 left side of the window. Please take a note about 4 coordinate values.
@@ -133,8 +126,5 @@ You can open the Traffic network project(node.csv) with NEXTA and then
 the downloaded map data can be visualized with GMNS format(node.csv,
 link.csv).
 
-![](media/image7.png){width="4.0152777777777775in"
-height="2.4069444444444446in"}
-
-![](media/image8.png){width="5.759722222222222in"
-height="3.0541666666666667in"}
+![Image7](img/image7.png)
+![Image8](img/image8.png)
