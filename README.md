@@ -24,33 +24,7 @@ A transportation network in GMNS format typically includes node.csv and
 link.csv files, as shown in the following table.
 
 ![Node Link Table](img/node_link_table.png)
-node.csv:
-
-  --------- --------- ---------- ----------- -----------
-  name      node_id   zone_id    ctrl_type   node_type
-  x_coord   y_coord   geometry               
-  --------- --------- ---------- ----------- -----------
-
-link.csv:
-
-  -------- ---------- -------------- ------------ -----------
-  name     link_id    from_node_id   to_node_id   dir_flag
-  length   lanes      free_speed     capacity     link_type
-           geometry                               
-  -------- ---------- -------------- ------------ -----------
-
-A list of typical link types from OSM includes the following.
-
-  ----------- ----------------
-  link_type   link_type_name
-  1           motorway
-  2           trunk
-  3           primary
-  4           secondary
-  5           tertiary
-  6           residential
-  7           others
-  ----------- ----------------
+![Link Type](img/link_type.png)
 
 **2.How to install OSMnx?**
 
