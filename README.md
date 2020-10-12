@@ -32,7 +32,6 @@ Further details about OSMnx can be found:
 <https://geoffboeing.com/2016/11/osmnx-python-street-networks/>.
 
 Step 1: Set a new virtual environment in Anaconda 3 with Python 3.7
-
 ![Image1](img/image1.png)
 Step 2: Open Terminal in this virtual environment, and install 3
 packages namely rtree, gdal, fional in sequence. Input the command line
